@@ -7,6 +7,7 @@ install/raxo/install.sh
 configs/grounding_dino/grounding_dino_swin_t_si_xray.py
 configs/grounding_dino/grounding_dino_swin_t_vinr_spine.py
 scripts/raxo_detect.py
+scripts/evaluate_groundingdino.sh
 tools_custom/sample_coco_support.py
 third_party/RAXO/README.md
 third_party/RAXO/raxo/build_prototypes_with_masks_prop.py

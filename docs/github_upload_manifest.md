@@ -8,6 +8,7 @@
 | --- | --- |
 | `README.md` | GitHub 首页、安装方法、数据布局和运行入口 |
 | `scripts/raxo_detect.py` | Grounding DINO → SAM2 → RAXO → DCC → COCO 评估主入口 |
+| `scripts/evaluate_groundingdino.sh` | 使用 RGB 预训练或微调权重进行 SIXray-D 测试集评估 |
 | `tools_custom/sample_coco_support.py` | 按类别和随机种子抽取 few-shot 支持集 |
 | `configs/grounding_dino/grounding_dino_swin_t_si_xray.py` | SIXray-D Grounding DINO 配置 |
 | `configs/grounding_dino/grounding_dino_swin_t_vinr_spine.py` | VinDr-SpineXR Grounding DINO 配置 |

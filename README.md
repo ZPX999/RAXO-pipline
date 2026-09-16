@@ -52,6 +52,18 @@ python scripts/raxo_detect.py --dry-run
 python scripts/raxo_detect.py
 ```
 
+只评估官方 RGB 预训练的 Grounding DINO Swin-T 权重：
+
+```bash
+bash scripts/evaluate_groundingdino.sh
+```
+
+评估自己的 RGB 微调权重时传入 checkpoint 路径：
+
+```bash
+CHECKPOINT=/path/to/your_checkpoint.pth bash scripts/evaluate_groundingdino.sh
+```
+
 输出保存在 `experiments/raxo/`，该目录默认不进入 Git。详细上传范围见 `docs/github_upload_manifest.md`。
 
 ## 上游项目
