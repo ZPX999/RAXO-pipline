@@ -1,0 +1,61 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Credentials and local command history
+.env
+.env.*
+!.env.example
+commands
+commands.md
+
+# Third-party repositories installed by install scripts
+mmdetection/
+third_party/dinov3/
+third_party/sam2/
+
+# Keep only the RAXO files used and adapted by this experiment
+third_party/RAXO/*
+!third_party/RAXO/README.md
+!third_party/RAXO/raxo/
+third_party/RAXO/raxo/*
+!third_party/RAXO/raxo/build_prototypes_with_masks_prop.py
+!third_party/RAXO/raxo/cocoapi_2.py
+!third_party/RAXO/raxo/dataset.py
+!third_party/RAXO/raxo/main_with_masks_prop.py
+!third_party/RAXO/raxo/metrics.py
+!third_party/RAXO/raxo/obtain_masks.py
+!third_party/RAXO/raxo/obtain_masks_res_inference.py
+!third_party/RAXO/raxo/uncertanty_estimation_fixed.py
+!third_party/RAXO/raxo/utils2.py
+
+# Model weights and generated experiment artifacts
+dataset/
+annotations/
+data/
+weights/
+checkpoints/
+work_dirs/
+outputs/
+logs/
+experiments/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+
+# Generated large detection/mask files
+*.bbox.json
+*.bbox_with_masks.json
+*_uncertanty.json
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
